@@ -40,7 +40,7 @@
                             <div class="totalSavings__container-content-item">
                                 <a href="#">
                                     <div>
-                                        <img src="{{ asset('frontend/assets/images/dashboard/widthdral.png') }}" alt="">
+                                        <img src="{{ asset('frontend/assets/images/dashboard/transfer.png') }}" alt="">
                                         <span>Transfer</span>
                                     </div>
                                 </a>
