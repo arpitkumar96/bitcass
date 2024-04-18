@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bitcass/public_html/
+    - export DEPLOYPATH=/home/bitcas/public_html/
     - /bin/cp -R * $DEPLOYPATH
