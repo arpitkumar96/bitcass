@@ -14,9 +14,10 @@
                         <div class="promote__cell-item">
                             <div class="label">
                                 <img src="{{ asset('frontend/assets/images/bitcoin-btc-logo.png') }}" alt=""><span>Your Airdrop BTS Token</span>
+                                <p class="soon">Listing Soon @1$ price</p>
                             </div>
                             <div class="arrow">
-                                <span>Listing Soon @1$ price</span>
+                                <span>15</span>
                                 <img src="http://127.0.0.1:8000/frontend/assets/images/pramotion/arrow.png" alt="">
                             </div>
                         </div>
@@ -58,7 +59,7 @@
                     </div>
                 </div>
                 <div class="content">
-                    <div class="shareBtnContainer"><a href="{{route('user.pramotion.share')}}" class="shareBtn">INVITATION LINK</a></div>
+                    <div class="shareBtnContainer"><a href="{{route('user.pramotion.share')}}" class="shareBtn">Invitation Links</a></div>
                     <div class="promote__cell">
                         <a href="#">
                             <div class="promote__cell-item">

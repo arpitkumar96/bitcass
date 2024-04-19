@@ -10,15 +10,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-12 mb-4">
-                    <div class="balance-card">
+                    <div class="balance-card withdrawl">
                         <h6>
-                            <img src="{{ asset('frontend/assets/images/balance.png') }}" class="img-fluid mb-2" alt="" style="width: 20px;">
+                            <img src="{{ asset('frontend/assets/images/balance.png') }}" class="img-fluid mb-2" alt="" style="width:25px;">
                             Available balance
                         </h6>
                         <h3>₹{{ $available_balance }}</h3>
                         <div class="row mt-3">
                             <div class="col-6">
-                                <img src="{{ asset('frontend/assets/images/chip.png') }}" alt="" class="img-fluid mb-2" style="width: 30px;">
+                                <img src="{{ asset('frontend/assets/images/chip.png') }}" alt="" class="img-fluid mb-2" style="width:30px;">
                             </div>
                             <div class="col-6">
 
