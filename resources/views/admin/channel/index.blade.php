@@ -17,7 +17,7 @@
             <div class="col-6">
                 @if(Route::currentRouteName() == 'admin.channel.edit')
                     <div class="mt-3 text-right">
-                        <x-admin.add-button route="{{route('admin.channel.index')}}" text="Add Channel"/>
+                        <x-admin.add-button route="{{route('admin.channel.index')}}" text="Add Channel" />
                     </div>
                 @endif
             </div>
