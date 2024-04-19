@@ -8,7 +8,7 @@
                     <div class="activity-wrapper">
                         <div class="activity-banner">
                             <div>
-                                <div class="banner-title">Activity</div>
+                                <div class="banner-title">Task</div>
                                 <div class="banner-para">Please remember to follow the event page</div>
                                 <div class="banner-para">We will launch user feedback activities from
                                     time to time</div>
@@ -20,14 +20,14 @@
                                     <div class="header-item">
                                         <div class="van-badge__wrapper">
                                             <div class="a1 bgcontainer"></div>
-                                        </div><span>Activity Award</span>
+                                        </div><span>Task Award</span>
                                     </div>
                                 </a>
                                 <a href="#">
                                     <div class="header-item">
                                         <div class="van-badge__wrapper">
                                             <div class="a3 bgcontainer"></div>
-                                        </div><span>Betting rebate</span>
+                                        </div><span>Trading rebate</span>
                                     </div>
                                 </a>
                                 <a href="#">

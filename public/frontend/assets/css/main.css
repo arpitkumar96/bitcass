@@ -524,13 +524,13 @@ ul li {
     border: 1px solid rgba(255, 255, 255, 0.17);
     outline: 0;
     box-shadow: none;
-    color: rgba(255, 255, 255, 0.8);
-    background: #debc6f;
+    color: rgb(0 0 0 / 80%);
+    opacity: 1;
+    background: #ffc325;
 }
 
 .form--control:focus {
-    color: #fff;
-    background: #debc6f;
+    color: #000;
     border: 1px solid rgba(255, 200, 39, 0.6);
     outline: 0;
     box-shadow: none;
@@ -2319,9 +2319,9 @@ i {
     background: transparent;
 }
 
-select.form--control {
+/* select.form--control {
     color: rgba(255, 255, 255, 0.8);
-}
+} */
 
 select.form--control option {
     color: rgba(255, 255, 255, 0.8);
@@ -5219,6 +5219,7 @@ iframe {
     display: -webkit-flex;
     display: flex;
     margin-top: 5px;
+    width: 100px;
 }
 
 .Popup-body-line:last-child {
@@ -5293,7 +5294,7 @@ iframe {
 .van-field__control {
     display: block;
     box-sizing: border-box;
-    min-width: auto;
+    min-width: 45px;
     margin: 0;
     padding: 0;
     color: var(--van-field-input-text-color);
@@ -5306,26 +5307,28 @@ iframe {
     user-select: auto;
 }
 .Popup-btn {
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     pointer-events: none;
     text-align: center;
-    font-size: .66667rem;
+    font-size: 30px;
+    line-height: 0px;
+    padding-top: -16px;
     padding: 0;
     color: #c8c9cc;
     background-position: center;
-    background-size: .66667rem;
-    background-repeat: no-repeat;
-    background-image: url(/frontend/assets/images/icon/add.svg);
+    /* background-size: .66667rem; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url(/frontend/assets/images/icon/add.svg); */
     -webkit-box-flex: 0;
     -webkit-flex: none;
-    flex: none
+    flex: none;
 }
 
-.Popup-btn.reduce {
+/* .Popup-btn.reduce {
     background-image: url(/frontend/assets/images/icon/reduce.svg)
-}
+} */
 
 .Popup-input {
     border-radius: 0.66667rem;
@@ -5773,7 +5776,7 @@ iframe {
     margin-bottom: 10px;
 }
 .record__main-info__title .recharge_text {
-    width: 4rem;
+    width: 5rem;
     height: 20px;
     text-align: center;
     color: #000;
@@ -6566,7 +6569,7 @@ iframe {
     float: right;
     margin-top: -38px;
     font-size: 22px;
-    margin-right: 1px;
+    margin-right: 10px;
 }
 
 .totalSavings__container-header__title{
@@ -6684,8 +6687,6 @@ iframe {
     color: rgba(255, 255, 255, 0.8);
     text-align: center;
 }
-
-
 
 .cg-default.van-button{
     box-shadow: 0 .05333rem #e04846;
@@ -6970,13 +6971,13 @@ iframe {
     justify-content: center;
     gap: .13333rem;
     width: 100%;
-    padding-block:.4rem;
-    color: #f8d985;
+    padding-block: .4rem;
+    color: #ff9c19;
     background: none;
-    border: .01333rem solid #f8d985;
+    border: .01333rem solid #ff9c19;
     border-radius: .53333rem;
     border-radius: 99rem;
-    outline: none;
+    outline: none;s
 }
 
 .wallet-1{
@@ -11828,7 +11829,7 @@ background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%) !important;
 }
 
 .bet-megabox .bet-megabox-elem {
-    background: #debc6f;
+    background: #ffc325;
     border-radius: 5px;
 }
 
@@ -11838,9 +11839,11 @@ background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%) !important;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    justify-content: space-between;
 }
 .withdrawls-megabox{
     margin-right: 10px;
+    cursor: pointer;
 }
 /* .withdrawls-item{
   width: 25%;

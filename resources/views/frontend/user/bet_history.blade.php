@@ -46,7 +46,7 @@
                     <div class="rechargeh__container">
                         <div class="rechargeh__container-head mb-2">
                             <img src="{{ asset('frontend/assets/images/dashboard/history.png') }}">
-                            <h1>Bet history</h1>
+                            <h1>Trade history</h1>
                         </div>
                         <div id="bet_history_div">
                         </div>

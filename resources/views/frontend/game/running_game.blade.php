@@ -140,7 +140,7 @@
     <div class="col-12 mt-3">
         <ul class="withdrawls-history hor-swipe">
             <li class="withdrawls-item">
-                <label class="withdrawls-megabox d-block mb-3">
+                <label class="withdrawls-megabox d-block">
                     <input type="radio" name="nav_menu" onclick="getGameHistory('{{ $game->id }}')" checked>
                     <span class="d-block p-2 withdrawls-megabox-elem">
                      Game history
@@ -148,7 +148,7 @@
                 </label>
             </li>
             <li class="withdrawls-item">
-                <label class="withdrawls-megabox d-block mb-3">
+                <label class="withdrawls-megabox d-block">
                     <input type="radio" name="nav_menu" onclick="getGameChart('{{ $game->id }}')">
                     <span class="d-block p-2 withdrawls-megabox-elem">
                       Charts
@@ -156,7 +156,7 @@
                 </label>
             </li>
             <li class="withdrawls-item">
-                <label class="withdrawls-megabox d-block mb-3">
+                <label class="withdrawls-megabox d-block">
                     <input type="radio" name="nav_menu" onclick="getUserGameHistory('{{ $game->id }}')">
                     <span class="d-block p-2 withdrawls-megabox-elem">
                      My history

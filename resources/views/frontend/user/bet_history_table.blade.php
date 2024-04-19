@@ -1,7 +1,7 @@
 @forelse ($bet_histories as $bet_history)
     <div class="record__main-info">
         <div class="record__main-info__title flex_between">
-            <div class="recharge_text">Bet History</div>
+            <div class="recharge_text">Trade History</div>
             <div class="flex_between">
                 @if($bet_history->is_win == '0')
                     <div class="fail">Lose</div>
