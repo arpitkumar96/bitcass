@@ -2184,9 +2184,13 @@ i {
     border-radius: 25px;
     overflow-y: auto;
     position: relative;
-    background: rgba(53, 11, 45, 0.3);
+    background: rgb(59 59 59);
     border: 1px solid rgba(255, 255, 255, 0.17);
     backdrop-filter: blur(15px);
+}
+
+.account__form__wrapper .form-control {
+    color: #fff !important;
 }
 
 @media (max-width: 767px) {
@@ -2324,8 +2328,7 @@ i {
 } */
 
 select.form--control option {
-    color: rgba(255, 255, 255, 0.8);
-    background: #debc6f;
+    color: #000;
 }
 
 select.form--control option:hover {
@@ -5036,6 +5039,11 @@ iframe {
     -webkit-justify-content: center;
     justify-content: center;
 }
+
+.Betting__C-foot a{
+    cursor: pointer;
+}
+
 .Betting__C-foot-b {
     background-color: #ffa82e;
     border-radius: 0.53333rem 0 0 0.53333rem;
@@ -5262,7 +5270,7 @@ iframe {
 }
 
 .Popup-11 .Popup-head-selectName {
-    color: #40ad72
+    color: #000;
 }
 
 .Popup-12 .Popup-head-selectName {
@@ -6003,9 +6011,10 @@ iframe {
     margin-right: 5px;
 }
 .rechargeh__container-head h1 {
-    color: #fae59f;
+    color: #ffc325;
     font-weight: 600;
-    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
 }
 .rechargeh__container {
     margin-top: 15px;
@@ -11854,6 +11863,7 @@ background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%) !important;
 .bet-megabox .bet-megabox-elem {
     background: #ffc325;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 

@@ -121,12 +121,10 @@
                 </div>
             </div>
             <div class="Betting__C-foot">
-                <div class="Betting__C-foot-b">
-                    <a class="cursor-pointer" onclick="getSelectedData('size','big')"> Up </a>
-                </div>
-                <div class="Betting__C-foot-s">
-                    <a class="cursor-pointer" onclick="getSelectedData('size','small')">Down </a>
-                </div>
+                    <a class="cursor-pointer Betting__C-foot-b" onclick="getSelectedData('size','big')"> Up </a>
+
+                    <a class="cursor-pointer Betting__C-foot-s" onclick="getSelectedData('size','small')">Down </a>
+
             </div>
 
             <div class="preloader-gif d-none" id="5min_loader">

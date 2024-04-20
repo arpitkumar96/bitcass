@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{config('app.name')}} - Online Casino Platform</title>
+    <title>Online Casino Platform - {{config('app.name')}}</title>
     <link rel="icon" type="image/png" href="{{asset('frontend/assets/images/favicon.png')}}" sizes="16x16">
 
     @include('frontend.layouts.css')
