@@ -3,10 +3,9 @@
     @push('css')
         <style>
             .btn-check:checked+.btn-secondary {
-                background: -webkit-linear-gradient(left, #C4933F 0%, #FAE59F 100%);
-                background: linear-gradient(90deg, #C4933F 0%, #FAE59F 100%);
+                background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
                 border-radius: 0.13333rem;
-                color: #8f5206;
+                color: #000;
                 border: none;
                 width: 100%;
                 line-height: 40px;
@@ -41,7 +40,7 @@
             .aiz-megabox>input:checked~.aiz-megabox-elem,
             .aiz-megabox>input:checked~.aiz-megabox-elem {
                 color: #fff;
-                background:linear-gradient(153.24deg, #ffd153 5.33%, #cbb064 93.42%);
+                background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
                 padding: 10px;
                 border-radius: 10px;
                 text-align: center;

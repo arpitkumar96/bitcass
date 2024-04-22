@@ -5580,13 +5580,17 @@ iframe {
     color: #fae59f;
 }
 .Recharge__content-paymoney__title p{
-    font-weight: 600;
-    font-size: 16px;
+   font-weight: 600;
+    font-size: 15px;
     margin-bottom: 8px;
+    letter-spacing: 0.5px;
+    color: #ff9c19;
 }
 .Recharge__content-quickInfo__title p{
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #ff9c19;
 }
 .Recharge__content-paymoney__money-list{
     display: -webkit-box;
@@ -5663,7 +5667,7 @@ iframe {
     display: -webkit-flex;
     display: flex;
     background: #292929;
-    color: #f8d985;
+    color: #ff9c19;
 }
 .Recharge__content-paymoney__money-input .place-div {
     height: 42px;
